@@ -16,7 +16,7 @@ const login = async(req, res) => {
         if (!usuarioLogueado) {
             return res.status(404).json({
                 ok: false,
-                msg: 'Email no valido'
+                msg: 'La cuenta no existe'
             });
         }
 
@@ -26,7 +26,7 @@ const login = async(req, res) => {
         if (!validarPassword) {
             return res.status(404).json({
                 ok: false,
-                msg: 'Contraseña no valida'
+                msg: 'Datos Invalidos' //Contraseña no valida
             });
         }
 

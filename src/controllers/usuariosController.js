@@ -16,16 +16,12 @@
              usuario
          })
 
-
-
      } catch (e) {
          return res.status(500).json({
              ok: false,
              Error: e.message
          })
      }
-
-
  }
 
  const crearUsuarios = async(req, res = response) => {
