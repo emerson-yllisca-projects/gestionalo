@@ -1,0 +1,5 @@
+[2021-04-02T05:25:24.257Z] [info] existe Usuario
+[2021-04-02T05:26:24.167Z] [info] existe Usuario
+[2021-04-02T06:19:31.477Z] [info] Login Error: ReferenceError: usuarioDB is not defined
+[2021-04-02T06:20:16.254Z] [info] Login Error: ReferenceError: usuarioDB is not defined
+[2021-04-02T06:24:50.290Z] [error] Login Error: ReferenceError: usuarioLogueado1 is not defined
